@@ -23,7 +23,11 @@ body {
     color: #3BB9EB;
 }
 
+.recipe__image {
+    width: 100%;
+}
 
-.ingredients, .preparation {
+
+.recipe__ingredients, .recipe__preparation {
     color: #6FB62A;
 }
