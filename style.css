@@ -3,25 +3,27 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.main {
+.page__main {
     width: 60vw;
     margin: 0 auto;
     min-width: 460px;
 }
 
-.entryHeader {
+.page__footer {
+    font-size: 12px;
+    text-align: center;
+}
+
+
+.recipe__header {
     color: #C53C8E;
 }
 
-.ingredients, .preparation {
-    color: #6FB62A;
-}
-
-.link {
+.recipe__link {
     color: #3BB9EB;
 }
 
-.page_footer {
-    font-size: 12px;
-    text-align: center;
+
+.ingredients, .preparation {
+    color: #6FB62A;
 }
