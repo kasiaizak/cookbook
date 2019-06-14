@@ -13,12 +13,20 @@ body {
     min-width: 460px;
 }
 
+.about {
+    border-bottom: 5px dotted #6FB62A;
+}
+
 .about__image {
     width: 25%;
     max-width: 150px;
     float: left;
     padding: 5px;
     box-sizing: border-box;
+}
+
+.cookbook__ornament {
+    border-bottom: 2px dashed #6FB62A;
 }
 
 .recipe__header {
