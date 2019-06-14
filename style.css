@@ -3,6 +3,10 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.header__navigation, .recipe__ingredients, .recipe__preparation {
+    color: #6FB62A;
+}
+
 .main {
     width: 60vw;
     margin: 0 auto;
@@ -29,9 +33,4 @@ body {
 
 .recipe__image {
     width: 100%;
-}
-
-
-.recipe__ingredients, .recipe__preparation {
-    color: #6FB62A;
 }
