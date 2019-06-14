@@ -13,6 +13,27 @@ body {
     min-width: 460px;
 }
 
+.about__image {
+    width: 25%;
+    max-width: 150px;
+    float: left;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.recipe__header {
+    color: #C53C8E;
+}
+
+.recipe__image {
+    width: 100%;
+}
+
+.recipe__link {
+    color: #3BB9EB;
+}
+
+
 .footer {
     font-size: 12px;
     text-align: center;
@@ -20,17 +41,4 @@ body {
 
 .footer__paragraph {
     display: inline;
-}
-
-
-.recipe__header {
-    color: #C53C8E;
-}
-
-.recipe__link {
-    color: #3BB9EB;
-}
-
-.recipe__image {
-    width: 100%;
 }
