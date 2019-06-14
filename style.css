@@ -13,10 +13,6 @@ body {
     min-width: 460px;
 }
 
-.about {
-    border-bottom: 5px dotted #6FB62A;
-}
-
 .about__image {
     width: 25%;
     max-width: 150px;
