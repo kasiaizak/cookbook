@@ -3,6 +3,12 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.main {
+    width: 60vw;
+    margin: 0 auto;
+    min-width: 460px;
+}
+
 .entryHeader {
     color: #C53C8E;
 }
