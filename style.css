@@ -3,13 +3,13 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.page__main {
+.main {
     width: 60vw;
     margin: 0 auto;
     min-width: 460px;
 }
 
-.page__footer {
+.footer {
     font-size: 12px;
     text-align: center;
 }
