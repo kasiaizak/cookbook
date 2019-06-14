@@ -14,6 +14,10 @@ body {
     text-align: center;
 }
 
+.footer__paragraph {
+    display: inline;
+}
+
 
 .recipe__header {
     color: #C53C8E;
