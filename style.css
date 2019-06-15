@@ -10,7 +10,6 @@ body {
 .main {
     width: 60vw;
     margin: 0 auto;
-    min-width: 460px;
 }
 
 .about__image {
@@ -19,10 +18,6 @@ body {
     float: left;
     padding: 5px;
     box-sizing: border-box;
-}
-
-.cookbook__ornament {
-    border-bottom: 2px dashed #6FB62A;
 }
 
 .recipe__header {
@@ -41,8 +36,13 @@ body {
     color: #3BB9EB;
 }
 
+.recipe__ornament {
+    border-bottom: 2px dashed #6FB62A;
+}
+
 
 .footer {
+    margin-top: 20px;
     font-size: 12px;
     text-align: center;
 }
