@@ -68,6 +68,12 @@ body {
     padding: 5px;
 }
 
+@media screen and (min-width: 500px) {
+    .footer {
+        margin: 40px auto 0;
+    }
+}
+
 @media screen and (min-width: 720px) {
     .main {
         width: 60vw;
