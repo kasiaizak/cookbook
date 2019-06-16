@@ -16,8 +16,12 @@ body {
     width: 25%;
     max-width: 150px;
     float: left;
-    padding: 5px;
+    padding: 0 10px 5px 0;
     box-sizing: border-box;
+}
+
+.cookbook__header {
+    text-align: center;
 }
 
 .recipe__header {
