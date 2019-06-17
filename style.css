@@ -29,6 +29,7 @@ body {
   text-align: center;
 }
 
+
 .recipe__header {
   font-family: 'Playfair Display', serif;
   font-size: 1.5em;
@@ -60,6 +61,35 @@ body {
 
 .recipe__paragraph {
   margin-top: 0;
+}
+
+.recipe__preview {
+  display: block;
+  width: 100%;
+  height: 20vh;
+  margin: 0 0 10px;
+  background-size: cover;
+  background-position: center;
+}
+
+.recipe__preview--5 {
+  background-image: url(img/pasztet-z-cukinii.JPG);
+}
+
+.recipe__preview--4 {
+  background-image: url(img/zapiekane-bataty.JPG);
+}
+
+.recipe__preview--3 {
+  background-image: url(img/kompot-z-rabarbaru-2.jpg);
+}
+
+.recipe__preview--2 {
+  background-image: url(img/koktajl-z-truskawek-2.JPG);
+}
+
+.recipe__preview--1 {
+  background-image: url(img/babka-marmurkowa.JPG);
 }
 
 
