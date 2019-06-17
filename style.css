@@ -1,81 +1,95 @@
 body {
-    background: #fefefe;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.header__navigation, .recipe__ingredients, .recipe__preparation, .footer__top {
-    color: #6FB62A;
+  background: #fefefe;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .header__navigation, .footer__top {
-    font-size: initial;
-    text-decoration: none;
+  color: #6FB62A;
+}
+
+.header__navigation, .footer__top {
+  font-size: initial;
+  text-decoration: none;
 }
 
 .main {
-    width: 80vw;
-    margin: 0 auto;
+  width: 80vw;
+  margin: 0 auto;
 }
 
 .about__image {
-    width: 25%;
-    max-width: 150px;
-    float: left;
-    padding: 0 10px 5px 0;
-    box-sizing: border-box;
+  width: 25%;
+  max-width: 150px;
+  float: left;
+  padding: 0 10px 5px 0;
+  box-sizing: border-box;
 }
 
 .cookbook__header {
-    text-align: center;
+  text-align: center;
 }
 
 .recipe__header {
-    color: #C53C8E;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5em;
+  font-weight: 700;
+  font-style: italic;
+  color: #C53C8E;
+  margin-bottom: 0.5em;
 }
 
 .recipe__image {
-    width: 100%;
-    max-width: 600px;
-    display: block;
-    margin: 20px auto;
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin: 20px auto;
+}
+
+.recipe__ingredients, .recipe__preparation {
+  color: #6FB62A;
+  font-size: 1.2em;
 }
 
 .recipe__link {
-    color: #3BB9EB;
+  color: #3BB9EB;
 }
 
 .recipe__ornament {
-    border-bottom: 2px dashed #6FB62A;
+  border-bottom: 2px dashed #6FB62A;
+}
+
+.recipe__paragraph {
+  margin-top: 0;
 }
 
 
 .footer {
-    margin: 40px auto;
-    font-size: 12px;
-    text-align: center;
+  margin: 40px auto;
+  font-size: 12px;
+  text-align: center;
 }
 
 .footer__paragraph {
-    display: inline;
+  display: inline;
 }
 
 .footer__top {
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    background-color: #fefefe;
-    border-radius: 10px;
-    padding: 5px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background-color: #fefefe;
+  border-radius: 10px;
+  padding: 5px;
 }
 
 @media screen and (min-width: 500px) {
-    .footer {
-        margin: 40px auto 0;
-    }
+  .footer {
+      margin: 40px auto 0;
+  }
 }
 
 @media screen and (min-width: 720px) {
-    .main {
-        width: 60vw;
-    }
+  .main {
+      width: 60vw;
+  }
 }
