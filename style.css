@@ -26,8 +26,10 @@ body {
   box-sizing: border-box;
 }
 
+
 .cookbook__header {
   text-align: center;
+  margin: 40px 0 0;
 }
 
 
