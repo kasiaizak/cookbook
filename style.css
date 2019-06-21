@@ -3,12 +3,16 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.header__navigation, .footer__top {
+.navigation, .navigation__link, .footer__top {
   color: #6FB62A;
+  font-size: initial;
 }
 
-.header__navigation, .footer__top {
-  font-size: initial;
+.navigation__item {
+  list-style: none;
+}
+
+.navigation__link, .footer__top {
   text-decoration: none;
 }
 
