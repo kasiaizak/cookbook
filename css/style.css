@@ -102,23 +102,23 @@ body {
 }
 
 .recipe__preview--1 {
-  background-image: url(img/babka-marmurkowa.JPG);
+  background-image: url(../img/babka-marmurkowa.JPG);
 }
 
 .recipe__preview--2 {
-  background-image: url(img/koktajl-z-truskawek-2.JPG);
+  background-image: url(../img/koktajl-z-truskawek-2.JPG);
 }
 
 .recipe__preview--3 {
-  background-image: url(img/kompot-z-rabarbaru-2.jpg);
+  background-image: url(../img/kompot-z-rabarbaru-2.jpg);
 }
 
 .recipe__preview--4 {
-  background-image: url(img/zapiekane-bataty.JPG);
+  background-image: url(../img/zapiekane-bataty.JPG);
 }
 
 .recipe__preview--5 {
-  background-image: url(img/pasztet-z-cukinii.JPG);
+  background-image: url(../img/pasztet-z-cukinii.JPG);
 }
 
 
