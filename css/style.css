@@ -12,17 +12,27 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.navigation {
+  margin-top: 10px;
+}
+
 .navigation, .navigation__link, .footer__top {
   color: #6FB62A;
   font-size: initial;
 }
 
 .navigation__item {
+  display: inline;
   list-style: none;
+  padding: 5px;
 }
 
 .navigation__link, .footer__top {
   text-decoration: none;
+}
+
+.navigation__list {
+  display: inline;
 }
 
 .main {
