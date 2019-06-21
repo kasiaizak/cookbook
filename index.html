@@ -2,70 +2,72 @@
 <html lang="pl">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <title>Książka kucharska Kasi Izak</title>
-    <script src="https://kit.fontawesome.com/e419c4505b.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Książka kucharska Kasi Izak</title>
+  <script src="https://kit.fontawesome.com/e419c4505b.js"></script>
 </head>
 
 <body>
-    <header id="top" class="header">
-        <nav class="navigation">
-            <ul>
-                <li class="navigation__item"><a href="#przepisy" class="navigation__link"><span class="fas fa-book fa-lg"></span> Przepisy</a></li>
-            </ul>
-        </nav>
+  <header id="top" class="header">
+    <nav class="navigation">
+      <ul>
+        <li class="navigation__item"><a href="#przepisy" class="navigation__link"><span class="fas fa-book fa-lg"></span> Przepisy</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main">
+    <header class="about">
+      <h1 class="about__header">Kasia Izak</h1>
+      <img src="img/kowbojka.jpg" alt="Kasia Izak" class="about__image">
+      <p>Junior Front-end Developer, przynajmniej mam nadzieję na takie stanowisko w niedługim czasie. Żartobliwie: "haker w spódnicy". :)</p>
+      <p>Moje hobby: nowe technologie, jeździectwo, fotografia, DIY, sudoku i inne łamigłówki logiczne, gry komputerowe.</p>
+      <p>Ta strona nie będzie jednak o programowaniu... To taka moja mała książka kucharska ze zbiorem ulubionych przepisów kulinarnych.</p>
     </header>
-    <main class="main">
-        <header class="about">
-            <h1 class="about__header">Kasia Izak</h1>
-            <img src="img/kowbojka.jpg" alt="Kasia Izak" class="about__image">
-            <p>Junior Front-end Developer, przynajmniej mam nadzieję na takie stanowisko w niedługim czasie. Żartobliwie: "haker w spódnicy". :)</p>
-            <p>Moje hobby: nowe technologie, jeździectwo, fotografia, DIY, sudoku i inne łamigłówki logiczne, gry komputerowe.</p>
-            <p>Ta strona nie będzie jednak o programowaniu... To taka moja mała książka kucharska ze zbiorem ulubionych przepisów kulinarnych.</p>
-        </header>
-        <section id="przepisy" class="cookbook">
-            <h2 class="cookbook__header"><span class="fas fa-book-open fa-lg"></span> Przepisy</h2>
-            <section class="recipe recipe__ornament">
-                <h3 class="recipe__header">Pasztet z cukinii</h3>
-                <span class="recipe__preview recipe__preview--5"></span>
-                <p class="recipe__paragraph">Na wstępie pragnę zaznaczyć, że jeśli ktoś robiąc pasztet z cukinii oczekuje smaku tradycyjnego pasztetu, to niech lepiej nie robi go wcale, bo do pasztetu to nie jest ani trochę podobne... :] Smak jest inny, konsystencja raczej też - jedynie w wyglądzie zewnętrznym można doszukiwać się podobieństw. :-) Mimo wszystko zachęcam do wypróbowania - warzywny pasztet na pewno znajdzie swoich amatorów. Można go podawać zarówno na zimno, jak i na ciepło - w tej drugiej wersji polecam posypać go delikatnie ulubionym żółtym serem!<br>
-                <a href="przepisy/pasztet-z-cukinii.html" class="recipe__link">Poznaj przepis na pasztet z cukinii</a></p>
-            </section>
-            <section class="recipe recipe__ornament">
-                <h3 class="recipe__header">Zapiekane bataty</h3>
-                <span class="recipe__preview recipe__preview--4"></span>
-                <p class="recipe__paragraph">Ostatnio będąc na zakupach skusiłam się na batata - już od jakiegoś czasu chciałam spróbować jak smakują "słodkie ziemniaki". Jakie było moje zdziwienie, gdy odkryłam znajomy kolor, konsystencję, a nawet bardzo podobny smak! Dla mnie batat bardzo przypomina w smaku pieczoną dynię piżmową, aczkolwiek przy dyni jednak pozostanę, która jest jeszcze łatwiejsza w przygotowaniu...<br>
-                <a href="przepisy/zapiekane-bataty.html" class="recipe__link">Poznaj przepis na zapiekane bataty</a></p>
-            </section>
-            <section class="recipe recipe__ornament">
-                <h3 class="recipe__header">Rabarbarowe orzeźwienie</h3>
-                <span class="recipe__preview recipe__preview--3"></span>
-                <p class="recipe__paragraph">Tym razem przedstawię przepis, choć nic twórczego to nie będzie, na mój ulubiony kompot - z rabarbaru! Schłodzony idealnie nadaje się na gorące dni, ponieważ nie jest zbyt słodki. W różnych wariacjach dodawane są do niego jakieś owoce, np. truskawki, ale chcę zaprezentować jego najprostszą wersję i zachęcić do jego wypróbowania, choć wątpię by był ktoś w Polsce, kto nie zna tego smaku z dzieciństwa... :)<br>
-                <a href="przepisy/rabarbarowe-orzezwienie.html" class="recipe__link">Poznaj przepis na rabarbarowe orzeźwienie</a></p>
-            </section>
-            <section class="recipe recipe__ornament">
-                <h3 class="recipe__header">Koktajl z truskawek</h3>
-                <span class="recipe__preview recipe__preview--2"></span>
-                <p class="recipe__paragraph">Truskawki to moje ulubione owoce! Oto przepis na mój koktajl nr 1! Swojego czasu zajadałam się nim prawie co wieczór... Polecam go również na gorące dni - przygotowuję go z owoców wyjętych z lodówki, więc orzeźwienie gwarantowane!<br>
-                <a href="przepisy/koktajl-z-truskawek.html" class="recipe__link">Poznaj przepis na koktajl z truskawek</a></p>
-            </section>
-            <section class="recipe recipe__ornament">
-                <h3 class="recipe__header">Babka marmurkowa</h3>
-                <span class="recipe__preview recipe__preview--1"></span>
-                <p class="recipe__paragraph">Wielkanoc, to Święto które nie może się obyć bez... BABKI! Przepis sprawdzony - baba wychodzi puszysta, ale nie sucha, a najważniejsze, że chyba nie da się jej zepsuć. :-)<br>
-                <a href="przepisy/babka-marmurkowa.html" class="recipe__link">Poznaj przepis na babkę marmurkową</a></p>
-            </section>
-        </section>
-    </main>
-    <footer class="footer">
-        <p class="footer__paragraph">Moja książka kucharska.</p>
-        <p class="footer__paragraph footer__paragraph--js"></p>
-        <a href="#top" class="footer__top"><span class="fas fa-chevron-circle-up fa-lg"></span> Na górę</a>
-    </footer>
-    <script src="main.js"></script>
+    <section id="przepisy" class="cookbook">
+      <h2 class="cookbook__header"><span class="fas fa-book-open fa-lg"></span> Przepisy</h2>
+      <section class="recipe recipe__ornament">
+        <h3 class="recipe__header">Pasztet z cukinii</h3>
+        <span class="recipe__preview recipe__preview--5"></span>
+        <p class="recipe__paragraph">Na wstępie pragnę zaznaczyć, że jeśli ktoś robiąc pasztet z cukinii oczekuje smaku tradycyjnego pasztetu, to niech lepiej nie robi go wcale, bo do pasztetu to nie jest ani trochę podobne... :] Smak jest inny, konsystencja raczej też - jedynie w wyglądzie zewnętrznym można doszukiwać się podobieństw. :-) Mimo wszystko zachęcam do wypróbowania - warzywny pasztet na pewno znajdzie swoich amatorów. Można go podawać zarówno na zimno, jak i na ciepło - w tej drugiej wersji polecam posypać go delikatnie ulubionym żółtym serem!<br>
+        <a href="przepisy/pasztet-z-cukinii.html" class="recipe__link">Poznaj przepis na pasztet z cukinii</a></p>
+      </section>
+      <section class="recipe recipe__ornament">
+        <h3 class="recipe__header">Zapiekane bataty</h3>
+        <span class="recipe__preview recipe__preview--4"></span>
+        <p class="recipe__paragraph">Ostatnio będąc na zakupach skusiłam się na batata - już od jakiegoś czasu chciałam spróbować jak smakują "słodkie ziemniaki". Jakie było moje zdziwienie, gdy odkryłam znajomy kolor, konsystencję, a nawet bardzo podobny smak! Dla mnie batat bardzo przypomina w smaku pieczoną dynię piżmową, aczkolwiek przy dyni jednak pozostanę, która jest jeszcze łatwiejsza w przygotowaniu...<br>
+        <a href="przepisy/zapiekane-bataty.html" class="recipe__link">Poznaj przepis na zapiekane bataty</a></p>
+      </section>
+      <section class="recipe recipe__ornament">
+        <h3 class="recipe__header">Rabarbarowe orzeźwienie</h3>
+        <span class="recipe__preview recipe__preview--3"></span>
+        <p class="recipe__paragraph">Tym razem przedstawię przepis, choć nic twórczego to nie będzie, na mój ulubiony kompot - z rabarbaru! Schłodzony idealnie nadaje się na gorące dni, ponieważ nie jest zbyt słodki. W różnych wariacjach dodawane są do niego jakieś owoce, np. truskawki, ale chcę zaprezentować jego najprostszą wersję i zachęcić do jego wypróbowania, choć wątpię by był ktoś w Polsce, kto nie zna tego smaku z dzieciństwa... :)<br>
+        <a href="przepisy/rabarbarowe-orzezwienie.html" class="recipe__link">Poznaj przepis na rabarbarowe orzeźwienie</a></p>
+      </section>
+      <section class="recipe recipe__ornament">
+        <h3 class="recipe__header">Koktajl z truskawek</h3>
+        <span class="recipe__preview recipe__preview--2"></span>
+        <p class="recipe__paragraph">Truskawki to moje ulubione owoce! Oto przepis na mój koktajl nr 1! Swojego czasu zajadałam się nim prawie co wieczór... Polecam go również na gorące dni - przygotowuję go z owoców wyjętych z lodówki, więc orzeźwienie gwarantowane!<br>
+        <a href="przepisy/koktajl-z-truskawek.html" class="recipe__link">Poznaj przepis na koktajl z truskawek</a></p>
+      </section>
+      <section class="recipe recipe__ornament">
+        <h3 class="recipe__header">Babka marmurkowa</h3>
+        <span class="recipe__preview recipe__preview--1"></span>
+        <p class="recipe__paragraph">Wielkanoc, to Święto które nie może się obyć bez... BABKI! Przepis sprawdzony - baba wychodzi puszysta, ale nie sucha, a najważniejsze, że chyba nie da się jej zepsuć. :-)<br>
+        <a href="przepisy/babka-marmurkowa.html" class="recipe__link">Poznaj przepis na babkę marmurkową</a></p>
+      </section>
+    </section>
+  </main>
+  <footer class="footer">
+    <p class="footer__paragraph">Moja książka kucharska.</p>
+    <p class="footer__paragraph footer__paragraph--js"></p>
+    <a href="#top" class="footer__top"><span class="fas fa-chevron-circle-up fa-lg"></span> Na górę</a>
+  </footer>
+  <script src="main.js"></script>
 </body>
+
 </html>
