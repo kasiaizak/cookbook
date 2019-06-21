@@ -7,7 +7,8 @@ const footerParagraph = document.querySelector('.footer__paragraph--js');
 
 footerParagraph.innerHTML = `Stronę koduje: ${autor}`;
 
-function welcome(name,age) {
+function welcome(name, age) {
+/* const welcome = (name, age) => { */
   if (age < 18) {
     console.log (`Witaj ${name}, widzę że do pełnoletności jeszcze trochę brakuje, ale to nie szkodzi! :-)`)
   } else {
