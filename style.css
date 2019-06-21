@@ -13,40 +13,40 @@ body {
 }
 
 .main {
+  margin: 0 auto;
   max-width: 800px;
   width: 80vw;
-  margin: 0 auto;
 }
 
+
 .about__image {
-  width: 25%;
-  max-width: 150px;
-  float: left;
-  padding: 0 10px 5px 0;
   box-sizing: border-box;
+  float: left;
+  max-width: 150px;
+  padding: 0 10px 5px 0;
+  width: 25%;
 }
 
 
 .cookbook__header {
-  text-align: center;
   margin: 40px 0 0;
+  text-align: center;
 }
 
-
 .recipe__header {
+  color: #C53C8E;
   font-family: 'Playfair Display', serif;
   font-size: 1.5em;
-  font-weight: 700;
   font-style: italic;
-  color: #C53C8E;
+  font-weight: 700;
   margin-bottom: 0.5em;
 }
 
 .recipe__image {
-  width: 100%;
-  max-width: 600px;
   display: block;
   margin: 20px auto;
+  max-width: 600px;
+  width: 100%;
 }
 
 .recipe__ingredients, .recipe__preparation {
@@ -67,38 +67,38 @@ body {
 }
 
 .recipe__preview {
+  background-position: center;
+  background-size: cover;
   display: block;
-  width: 100%;
   height: 20vh;
   margin: 0 0 10px;
-  background-size: cover;
-  background-position: center;
-}
-
-.recipe__preview--5 {
-  background-image: url(img/pasztet-z-cukinii.JPG);
-}
-
-.recipe__preview--4 {
-  background-image: url(img/zapiekane-bataty.JPG);
-}
-
-.recipe__preview--3 {
-  background-image: url(img/kompot-z-rabarbaru-2.jpg);
-}
-
-.recipe__preview--2 {
-  background-image: url(img/koktajl-z-truskawek-2.JPG);
+  width: 100%;
 }
 
 .recipe__preview--1 {
   background-image: url(img/babka-marmurkowa.JPG);
 }
 
+.recipe__preview--2 {
+  background-image: url(img/koktajl-z-truskawek-2.JPG);
+}
+
+.recipe__preview--3 {
+  background-image: url(img/kompot-z-rabarbaru-2.jpg);
+}
+
+.recipe__preview--4 {
+  background-image: url(img/zapiekane-bataty.JPG);
+}
+
+.recipe__preview--5 {
+  background-image: url(img/pasztet-z-cukinii.JPG);
+}
+
 
 .footer {
-  margin: 40px auto;
   font-size: 12px;
+  margin: 40px auto;
   text-align: center;
 }
 
@@ -107,12 +107,12 @@ body {
 }
 
 .footer__top {
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
   background-color: #fefefe;
   border-radius: 10px;
+  bottom: 10px;
   padding: 5px;
+  position: fixed;
+  right: 10px;
 }
 
 @media screen and (min-width: 500px) {
