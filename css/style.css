@@ -134,12 +134,6 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-  .cookbook__grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 20px;
-  }
-
   .ingredients__list {
     padding-left: 20px;
   }
@@ -167,18 +161,15 @@ body {
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .cookbook__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+  }
+}
+
 @media screen and (min-width: 1440px) {
-  body, .footer {
-    font-size: 1.5rem;
-  }
-
-  .navigation,
-  .navigation__link,
-  .recipe__link,
-  .footer__top {
-    font-size: inherit;
-  }
-
   .recipe__gallery {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -189,19 +180,31 @@ body {
     width: 45%;
   }
 
-  .recipe__paragraph {
-    line-height: 28px;
-  }
-
   .recipe__paragraph--introduction {
     width: 50%;
   }
 }
 
 @media screen and (min-width: 2560px) {
-  .cookbook__grid {
+  body, .footer {
+    font-size: 1.5rem;
+  }
+
+  .cookbook__grid,
+  .recipe__gallery {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 30px;
+  }
+
+  .navigation,
+  .navigation__link,
+  .recipe__link,
+  .footer__top {
+    font-size: inherit;
+  }
+
+  .recipe__paragraph {
+    line-height: 28px;
   }
 }
