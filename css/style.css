@@ -41,7 +41,6 @@ body {
 
 .main {
   margin: 0 auto;
-  max-width: 800px;
   width: 80vw;
 }
 
@@ -54,6 +53,10 @@ body {
   width: 25%;
 }
 
+
+.cookbook {
+  display: inline-block;
+}
 
 .cookbook__header {
   color: #3BB9EB;
@@ -127,8 +130,18 @@ body {
   }
 }
 
-@media screen and (min-width: 720px) {
-  .main {
-      width: 60vw;
+@media screen and (min-width: 768px) {
+  .cookbook__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .cookbook__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
   }
 }
