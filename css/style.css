@@ -62,12 +62,9 @@ body {
 }
 
 .navigation {
-  display: flex;
-  justify-content: center;
   margin-top: 10px;
 }
 
-.navigation,
 .navigation__link,
 .recipe__link,
 .footer__top {
@@ -76,9 +73,8 @@ body {
 }
 
 .navigation__item {
-  display: inline;
-  list-style: none;
-  padding: 5px;
+  display: block;
+  margin: 0 16px;
 }
 
 .navigation__link,
@@ -88,6 +84,10 @@ body {
 }
 
 .navigation__list {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  list-style: none;
   padding: 0;
 }
 
