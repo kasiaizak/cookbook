@@ -58,11 +58,16 @@ body {
 
 .main {
   margin: 0 auto;
+  padding-top: 32px;
   width: 80vw;
 }
 
 .navigation {
-  margin-top: 10px;
+  background: #fff7dd;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .navigation__link,
