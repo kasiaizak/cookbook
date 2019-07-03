@@ -50,6 +50,14 @@ body {
   right: 10px;
 }
 
+.header {
+  background: #FFFDCF;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 .ingredients__header,
 .preparation__header {
   color: #3BB9EB;
@@ -60,14 +68,6 @@ body {
   margin: 0 auto;
   padding-top: 32px;
   width: 80vw;
-}
-
-.navigation {
-  background: #fff7dd;
-  left: 0;
-  position: fixed;
-  top: 0;
-  width: 100%;
 }
 
 .navigation__link,
@@ -211,5 +211,38 @@ body {
 
   .recipe__paragraph {
     line-height: 28px;
+  }
+}
+
+@media screen and (min-width: 353px) {
+  .navigation__switcher {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 352px) {
+  .header {
+    min-height: 48px;
+  }
+
+  .navigation__item {
+    margin: 16px;
+  }
+
+  .navigation__list {
+    align-items: flex-start;
+    display: none;
+    flex-direction: column;
+  }
+
+  .navigation__list--visible {
+    display: flex;
+  }
+
+  .navigation__switcher {
+    border: none;
+    position: absolute;
+    right: 16px;
+    top: 16px;
   }
 }
