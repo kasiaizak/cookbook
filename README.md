@@ -1,5 +1,5 @@
 # Cookbook
-Strona z wykorzystaniem HTML, CSS i JavaScript - [widok on-line](https://kasiaizak.github.io/cookbook/)
+Strona z wykorzystaniem HTML, CSS i JavaScript.
 
 Ze względu na wprowadzenie nowych narzędzi do pracy strona będzie dalej rozwijana w nowym repozytorium: [masterszef](https://github.com/kasiaizak/masterszef)
 
